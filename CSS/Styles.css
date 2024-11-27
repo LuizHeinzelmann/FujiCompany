@@ -78,6 +78,7 @@ body {
 .boxContent {
     align-items: center;
     justify-content: center;
+    padding-right: 15px;
 }
 .RecuperarSenha {
     cursor: pointer;
@@ -138,7 +139,7 @@ h1 {
         margin-top: 10px;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1224px) {
     body {
         display: flex;
         flex-direction: column; 
@@ -149,6 +150,7 @@ h1 {
         width: 70vw;
         height: auto; 
         padding: 20px;
+        padding-bottom: 20px;
         font-size: 14px; 
     }
     .email, .senha, .buttonEntrar {
