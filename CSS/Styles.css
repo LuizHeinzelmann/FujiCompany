@@ -74,6 +74,11 @@ body {
     color: white;
     cursor: pointer;
     font-size: 19px;
+    transition:0.4s;
+}
+.buttonEntrar:hover {
+    background-color: rgb(210, 0, 147,)
+    color: #fff;
 }
 .boxContent {
     align-items: center;
